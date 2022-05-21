@@ -1,3 +1,5 @@
 {
-  "extends": "next/core-web-vitals"
+    // env to remove warning on (console) in file mongo
+    "env": { "browser": true, "node": true },
+    "extends": ["eslint:recommended", "next", "next/core-web-vitals"]
 }
